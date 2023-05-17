@@ -1,7 +1,7 @@
 # 🖥 GnomeMemorySaver
-This simple basic script offers user-friendly options to reduce memory usage and restore default settings, providing an efficient way to optimize system performance. Please feel free to customize and adapt this description as per your requirements. Based on this [post](https://www.reddit.com/r/linuxquestions/comments/123btg9/comment/jdu48ng/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
+This simple and easy-to-use script provides options that are designed to help you reduce memory usage and restore default settings, ultimately optimizing your system's performance. Feel free to customize and adapt the script according to your specific requirements. It's based on valuable insights from various sources.
 
-Packagekitd and gnome-software are kind of notorious for using a lot of memory. The script below adopt steps to configure the system not to run them all of the time. PackageKitd can be configured to shut itself off when idle, and gnome-software can also be configured not to run in the background or as a search provider, and those three changes can really significantly reduce memory utilization on Fedora systems at idle. 
+Both PackageKitd and gnome-software are known for consuming a significant amount of memory. To address this, the script takes steps to configure the system in a way that minimizes their impact. For instance, PackageKitd can be set to automatically shut itself off when idle, and gnome-software can be configured to prevent it from running in the background or as a search provider. Implementing these three changes can have a remarkable effect on reducing memory usage, especially during idle periods on Fedora systems.
 
 ### ⬇️ Instalation
 To use the script, open a Terminal and follow these steps:
@@ -14,4 +14,4 @@ To use the script, open a Terminal and follow these steps:
 Then just reboot. Check memory use afterward. Also, check the process list to make sure gnome-software is not running). packagekitd might be running, and it might be using quite a bit of RAM, but it should exit within 5 minutes. Let me know if that helps.
 
 ### 👉🏻 Trade-offs 
-The command-not-found plugin in the shell will take a second or two longer to suggest installing a missing package, and you won't get periodic reminders to update your system. But if you manually open gnome-software periodically, you can still update that way. Just give yourself some other kind of regular reminder to patch. 
+By disabling the command-not-found plugin in the shell, you may experience a slight delay of a second or two when receiving suggestions for installing missing packages. Additionally, you won't receive periodic reminders to update your system. However, you can still manually open gnome-software from time to time to perform updates. It's recommended to set up alternative methods or reminders to ensure you stay informed about important system patches and updates.
