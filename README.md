@@ -5,7 +5,7 @@ Both PackageKitd and gnome-software are known for consuming a significant amount
 
 ### ⬇️ Instalation
 To use the script, open a Terminal and follow these steps:
-1. Download the repository from GitHub `git clone https://github.com/leonardobetti/gnomememorysaver.git`
+1. Download the repository from GitHub `gh repo clone leonardobetti/GnomeMemorySaver` or `git clone https://github.com/leonardobetti/gnomememorysaver.git`
 3. Enter the folder `cd GnomeMemorySaver`
 4. Enable the script using `chmod +x GnomeMemorySaver.sh`
 5. Execute the script by running `sudo ./GnomeMemorySaver.sh`.
