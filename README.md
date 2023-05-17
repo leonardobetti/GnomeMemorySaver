@@ -12,9 +12,9 @@ To use the script, open a Terminal and follow these steps:
 3. Enter the folder `cd GnomeMemorySaver`
 4. Enable the script using `chmod +x GnomeMemorySaver.sh`
 5. Execute the script by running `sudo ./GnomeMemorySaver.sh`.
+6. Reboot
 
-
-Then just reboot. Check memory use afterward. Also, check the process list to make sure gnome-software is not running). packagekitd might be running, and it might be using quite a bit of RAM, but it should exit within 5 minutes. Let me know if that helps.
+Check memory use afterwards using `free -h` Also, check the process list to make sure gnome-software is not running. packagekitd might be running, and it might be using quite a bit of RAM, but it should exit within 5 minutes.
 
 ### 👉🏻 Trade-offs 
 By disabling the command-not-found plugin in the shell, you may experience a slight delay of a second or two when receiving suggestions for installing missing packages. Additionally, you won't receive periodic reminders to update your system. However, you can still manually open gnome-software from time to time to perform updates. It's recommended to set up alternative methods or reminders to ensure you stay informed about important system patches and updates.
