@@ -2,7 +2,7 @@
 
 [![fedora 38 screenshot](https://news.itsfoss.com/content/images/2023/02/fedora-38.jpg)](https://news.itsfoss.com/content/images/2023/02/fedora-38.jpg)  
 
-This simple and easy-to-use script provides options that are designed to help you reduce memory usage and restore default settings, ultimately optimizing your system's performance. Feel free to customize and adapt the script according to your specific requirements. It's based on valuable insights from various sources
+This simple and easy-to-use script provides options that are designed to help you reduce memory usage and restore default settings, ultimately optimizing your system's performance. Feel free to customize and adapt the script according to your specific requirements.
 
 Both PackageKitd and gnome-software are known for consuming a significant amount of memory. To address this, the script takes steps to configure the system in a way that minimizes their impact. For instance, PackageKitd can be set to automatically shut itself off when idle, and gnome-software can be configured to prevent it from running in the background or as a search provider. Implementing these three changes can have a remarkable effect on reducing memory usage, especially during idle periods on Fedora systems.
 
