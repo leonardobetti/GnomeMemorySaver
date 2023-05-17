@@ -20,6 +20,6 @@ Then just reboot. Check memory use afterward. Also, check the process list to ma
 By disabling the command-not-found plugin in the shell, you may experience a slight delay of a second or two when receiving suggestions for installing missing packages. Additionally, you won't receive periodic reminders to update your system. However, you can still manually open gnome-software from time to time to perform updates. It's recommended to set up alternative methods or reminders to ensure you stay informed about important system patches and updates.
 
 ### 🔧 Compatibility
-- [x] Fedora 
-- [x] Redhat 
-- [x] CentOS
+- [x] Fedora Linux
+- [x] Redhat Linux
+- [x] CentOS Linux
