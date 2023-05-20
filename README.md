@@ -7,13 +7,9 @@ This simple and easy-to-use script provides options that are designed to help yo
 Both PackageKitd and gnome-software are known for consuming a significant amount of memory. To address this, the script takes steps to configure the system in a way that minimizes their impact. For instance, PackageKitd can be set to automatically shut itself off when idle, and gnome-software can be configured to prevent it from running in the background or as a search provider. Implementing these three changes can have a remarkable effect on reducing memory usage, especially during idle periods on Fedora systems.
 
 ### ⬇️ Instalation
-To use the script, open a Terminal and follow these steps:
-1. Download the repository from GitHub `gh repo clone leonardobetti/GnomeMemorySaver` or `git clone https://github.com/leonardobetti/gnomememorysaver.git`
-3. Enter the folder `cd GnomeMemorySaver`
-4. Enable the script using `chmod +x GnomeMemorySaver.sh`
-5. Execute the script by running `sudo ./GnomeMemorySaver.sh`.
-6. Reboot
+Open a Terminal then copy and paste `curl -L https://github.com/leonardobetti/GnomeMemorySaver/blob/main/GnomeMemorySaver.sh | bash`
 
+### :pager: Check
 Check memory use afterwards using `free -h` Also, check the process list to make sure gnome-software is not running. packagekitd might be running, and it might be using quite a bit of RAM, but it should exit within 5 minutes.
 
 ### 👉🏻 Trade-offs 
