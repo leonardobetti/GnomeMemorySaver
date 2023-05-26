@@ -9,7 +9,6 @@ Both PackageKitd and gnome-software are known for consuming a significant amount
 ### ⬇️ Instalation
 Open a Terminal then copy and paste `curl -L https://github.com/leonardobetti/GnomeMemorySaver/blob/main/GnomeMemorySaver.sh | bash`
 
-### :pager: Check
 Check memory use afterwards using `free -h` Also, check the process list to make sure gnome-software is not running. packagekitd might be running, and it might be using quite a bit of RAM, but it should exit within 5 minutes.
 
 ### 👉🏻 Trade-offs 
